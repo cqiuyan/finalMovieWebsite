@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney Movie Ideas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+      <h1>Disney Themed Movie Recommendations</h1>
+      <p class="tagline">Don't know what to watch during free time? Ask me for ideas!</p>
+      <nav class="nav">
+        <a href="#generator">Movie Ideas</a>
+        <a href="#watchlist">Watchlist</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+  
+    <main>
+    <img src="castle.jpg" class="img" alt="Magic Castle">
+
+      <section id="generator" class="section">
+        <h2>Movie Ideas</h2>
+        <p>Click the button to get a few Disney movie recommendation all at once</p>
+        <div class="controls">
+          <button id="generateBtn">Generate Movies</button>
+        </div>
+        <div id="moviesContainer" class="cards-grid"></div>
+      </section>
+  
+ 
+      <section id="watchlist" class="section">
+        <h2>Your Watchlist</h2>
+        <p>Save movies you like and come back to them later.</p>
+
+        <button id="clearWatchlistBtn" class="secondary-btn">Clear Watchlist</button>
+
+        <ul id="watchlistItems" class="watchlist"></ul>
+      </section>
+  
+      <section id="about" class="section">
+        <h2>About This Site</h2>
+        <p>
+            You can get recommendations for Disney movies to watch with family and friends. Perfect for kids and for those indecisive moments on what to watch. 
+            There is also a watchlist feature to save interesting movies to watch later. Have fun exploring, grab some popcorn, and enjoy! Click those buttons.
+        </p>
+      </section>
+    </main>
+  
+    <button id="scrollTopBtn" class="scroll-top">↑</button>
+
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+  
+    <script src="script.js"></script>
+
+    <footer id="siteFooter" class="site-footer">
+        @copyright 2025
+      </footer>
+      
+</body>
+</html>
+
