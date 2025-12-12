@@ -63,7 +63,7 @@ main {
     background: white;
     border-radius: 5px;
     box-shadow: 0 18px 40px rgba(15, 23, 42, 0.1);
-    scroll-margin-top: 140px;
+    scroll-margin-top: 200px;
 }
 
 .controls {
